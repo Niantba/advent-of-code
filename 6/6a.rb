@@ -1,8 +1,8 @@
-txt = "Time:        59     79     65     75
-Distance:   597   1234   1032   1328"
+require "../inputs/6.rb"
+input = INPUT
 
-times = txt.split("\n")[0].scan(/\d+/).map(&:to_i)
-distances = txt.split("\n")[1].scan(/\d+/).map(&:to_i)
+times = input.split("\n")[0].scan(/\d+/).map(&:to_i)
+distances = input.split("\n")[1].scan(/\d+/).map(&:to_i)
 
 wins = []
 x = 0
