@@ -8,7 +8,7 @@ total = 0
 index = 0
 
 while index < first_list.length
-  total += second_list[index] - first_list[index]
+  total += (second_list[index] - first_list[index]).abs
   index +=1
 end
 
